@@ -1,6 +1,6 @@
 # Maven Multi-Module Example
 
-It's an example that has Parent, Library and Child(Service)
+It's a basic convert example that has Parent, Library and Child(Service)
 
 - usage:
 	> cd parent
@@ -52,3 +52,7 @@ The result should be like below;
 
 [INFO] BUILD SUCCESS
 ```
+
+You can install Jboss on your local server and deploy **ServiceEar-0.0.1-SNAPSHOT.ear** artifact on it. After deployment you can see these screens.
+
+![index](images/index.png?raw=true "Height Convert Example")    ![result](images/result.png?raw=true "Height Convert Result")
